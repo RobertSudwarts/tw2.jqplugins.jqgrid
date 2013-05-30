@@ -8,6 +8,15 @@ jqgrid_css = twjq_c.jQueryPluginCSSLink(
     basename=defaults._jqgrid_css_basename_,
     modname='tw2.jqplugins.jqgrid',
 )
+
+# added jqgrid overrides css
+jqgrid_bootstrap_ui_override_css = twjq_c.jQueryPluginCSSLink(
+    name=defaults._jqgrid_name_,
+    version=defaults._jqgrid_version_,
+    basename='bootstrap-ui-jqGrid-overrides',
+    modname='tw2.jqplugins.jqgrid',
+)
+
 word_wrap_css = twjq_c.jQueryPluginCSSLink(
     name=defaults._jqgrid_name_,
     version=defaults._jqgrid_version_,
@@ -31,4 +40,4 @@ jqgrid_js = twjq_c.jQueryPluginJSLink(
     modname='tw2.jqplugins.jqgrid',
 )
 
-__all__ = ['jqgrid_js', 'jqgrid_locale', 'jqgrid_css']
+__all__ = ['jqgrid_js', 'jqgrid_locale', 'jqgrid_css', 'jqgrid_bootstrap_ui_override_css']
