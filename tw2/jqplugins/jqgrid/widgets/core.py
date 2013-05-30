@@ -19,6 +19,7 @@ class jqGridWidget(tw2_jq_ui.JQueryUIWidget):
         tw2.jquery.jquery_js,
         tw2_jq_ui.jquery_ui_js, tw2_jq_ui.jquery_ui_css,
         base.jqgrid_locale, base.jqgrid_js, base.jqgrid_css,
+        base.jqgrid_bootstrap_ui_override_css
     ]
     template = "tw2.jqplugins.jqgrid.templates.jqgrid"
 

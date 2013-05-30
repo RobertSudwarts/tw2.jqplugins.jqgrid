@@ -93,7 +93,7 @@ class SQLAjqGridWidget(jqGridWidget):
 
     @classmethod
     def _get_properties(cls):
-
+        
         props = []
         if cls.colModel:
             props = [p for p in sa.orm.class_mapper(cls.entity).iterate_properties]
