@@ -17,6 +17,14 @@
     overflow: hidden;
 }
 
+/* this line sorts out the issue where adding the
+   right border to cells caused the table contents
+   to bloat out and a horizontal scrollbar being added
+*/
+.ui-jqgrid table { 
+    border-collapse: separate;
+}
+
 .ui-jqgrid .ui-jqgrid-titlebar{
     height: 20px;    /* 40 -> 35 */
     line-height: 20px;
@@ -102,8 +110,9 @@
 }
 .ui-jqgrid tr.ui-row-ltr td {
     border-bottom: 1px solid #DDDDDD;
-	border-right:none; 
-	padding:3px 2px;
+    border-right: 1px solid #DDDDDD;
+    /*border-right: none;  */
+    /*padding: 3px 2px;*/
 }
 
 
@@ -155,8 +164,8 @@
 
 .ui-jqgrid .ui-pg-input {
     width: auto;
-    height: 80%;
-
+    height: 85%;
+    font-size: .9em;
 }
 .ui-jqgrid .ui-pg-selbox {
     display: block;
@@ -172,7 +181,10 @@
 
 
 .ui-jqgrid .ui-jqgrid-htable th div{
-    overflow:visible;
+    /*overflow: visible; */
+    overflow: hidden;
+    position: relative;
+    height: 17px;
 }
 .ui-jqgrid .ui-pager-control {
     /*height: 40px;   50px -> 40px */
