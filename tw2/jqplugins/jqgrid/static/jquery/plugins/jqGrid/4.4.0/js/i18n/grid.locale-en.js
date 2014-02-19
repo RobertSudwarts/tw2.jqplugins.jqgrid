@@ -102,6 +102,8 @@ $.extend($.jgrid,{
 			],
 			AmPm : ["am","pm","AM","PM"],
 			S: function (j) {return j < 11 || j > 13 ? ['st', 'nd', 'rd', 'th'][Math.min((j - 1) % 10, 3)] : 'th';},
+			//srcformat: 'Y-m-d',
+			//newformat: 'd-M-Y',
 			srcformat: 'Y-m-d',
 			newformat: 'd-M-Y',
 			masks : {

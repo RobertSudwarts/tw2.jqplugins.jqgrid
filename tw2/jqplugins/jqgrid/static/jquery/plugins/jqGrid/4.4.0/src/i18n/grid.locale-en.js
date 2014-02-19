@@ -103,7 +103,7 @@ $.extend($.jgrid,{
 			AmPm : ["am","pm","AM","PM"],
 			S: function (j) {return j < 11 || j > 13 ? ['st', 'nd', 'rd', 'th'][Math.min((j - 1) % 10, 3)] : 'th';},
 			srcformat: 'Y-m-d',
-			newformat: 'n/j/Y',
+			newformat: 'd/m/Y',
 			masks : {
 				// see http://php.net/manual/en/function.date.php for PHP format used in jqGrid
 				// and see http://docs.jquery.com/UI/Datepicker/formatDate

@@ -1,4 +1,4 @@
-.ui-jqgrid .ui-jqgrid-view, 
+.ui-jqgrid .ui-jqgrid-view,
 .ui-jqgrid .ui-pg-table
   {
     font-size: 11px;
@@ -6,14 +6,14 @@
 
 
 .ui-jqgrid .ui-paging-info,
-.ui-jqgrid .ui-pg-selbox { 
-    font-size: inherit; 
+.ui-jqgrid .ui-pg-selbox {
+    font-size: inherit;
 }
 
 
 .ui-jqgrid .ui-jqgrid-hbox {
-    height: 25px;
-    font-size: 8px;
+    height: 23px;
+    font-size: 12px;
     overflow: hidden;
 }
 
@@ -21,7 +21,7 @@
    right border to cells caused the table contents
    to bloat out and a horizontal scrollbar being added
 */
-.ui-jqgrid table { 
+.ui-jqgrid table {
     border-collapse: separate;
 }
 
@@ -31,11 +31,11 @@
     color: #000000;
     background: #e6e6e6 url(/css/custom-theme/images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    padding: 0.3em .2em .2em .3em; 
+    padding: 0.3em .2em .2em .3em;
     position: relative;
 }
 
-/* change background colour of jqgrid pager 
+/* change background colour of jqgrid pager
    notice that this links directly to the custom theme
    via /public/css etc
 */
@@ -45,9 +45,9 @@
 }
 
 .ui-jqgrid .ui-jqgrid-title {
-    padding: 0em 0em 0em .2em; 
+    padding: 0em 0em 0em .2em;
     vertical-align: middle;
-    margin: .1em 0 .3em; 
+    margin: .1em 0 .3em;
 }
 
 .ui-jqgrid .ui-widget-header{
@@ -58,12 +58,12 @@
     font-size: 12px;
     height: 15px;
     border: 1px solid #CCCCCC;
-    border-radius: 4px;                
-}                       
+    border-radius: 4px;
+}
 /*
 .ui-jqgrid .ui-state-default, .ui-jqgrid .ui-widget-content .ui-state-default, .ui-jqgrid .ui-widget-header .ui-state-default {
     background: #F9F9F9;
-    border: 1px solid #D3D3D3;               
+    border: 1px solid #D3D3D3;
     line-height: 15px;
     height: 45px;
     font-weight: bold;
@@ -81,8 +81,8 @@
 /*** Column headers ******/
 .ui-jqgrid .ui-jqgrid-hdiv {
     /*background: #F9F9F9;*/
-    
-    border: 1px solid #D3D3D3;               
+
+    border: 1px solid #D3D3D3;
     /*line-height: 15px; */
     /*height: 45px; */
     /*font-weight: bold;*/
@@ -129,18 +129,18 @@
 }
 
 .ui-jqgrid-btable .ui-widget-content.ui-state-highlight {
-    background-color: #c1dbfc ; /*#94CAEE*/		
+    background-color: #c1dbfc ; /*#94CAEE*/
 		background-image: -webkit-linear-gradient(top, #c1dbfc, #ced4d6); /* Safari 5.1+, Chrome 10+ */
 		background-image: -moz-linear-gradient(top, #c1dbfc, #ced4d6); /* Firefox 3.6 */
 		background-image: -o-linear-gradient(top, #c1dbfc, #ced4d6); /* Opera 11.10+ */
 		background-image: linear-gradient(top, #c1dbfc, #ced4d6); /* CSS3 Compliant */
 		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fceec1', endColorstr='#eedc94', GradientType=0); /* IE8 */
     /* original row background/colour settings
-    background-color: #EEDC94;      
-        background-image: -webkit-linear-gradient(top, #fceec1, #eedc94); 
-        background-image: -moz-linear-gradient(top, #fceec1, #eedc94); 
-        background-image: -o-linear-gradient(top, #fceec1, #eedc94); 
-        background-image: linear-gradient(top, #fceec1, #eedc94); 
+    background-color: #EEDC94;
+        background-image: -webkit-linear-gradient(top, #fceec1, #eedc94);
+        background-image: -moz-linear-gradient(top, #fceec1, #eedc94);
+        background-image: -o-linear-gradient(top, #fceec1, #eedc94);
+        background-image: linear-gradient(top, #fceec1, #eedc94);
         filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fceec1', endColorstr='#eedc94', GradientType=0); /* IE8 */
     */
     background-repeat: repeat-x;
@@ -153,10 +153,10 @@
     background-position: 1px -16px;
 }
 
-.ui-jqgrid tr.ui-search-toolbar th { 
-    border-top-width: 0px !important; 
-    border-top-color: inherit !important; 
-    border-top-style: ridge !important 
+.ui-jqgrid tr.ui-search-toolbar th {
+    border-top-width: 0px !important;
+    border-top-color: inherit !important;
+    border-top-style: ridge !important
 }
 
 
@@ -164,9 +164,9 @@
 .ui-jqgrid .ui-jqgrid-pager {
     white-space: nowrap;
     background: #F9F9F9;
-    border: 1px solid #D3D3D3;               
+    border: 1px solid #D3D3D3;
     line-height: 15px;
-    height: auto; 
+    height: auto;
     position: relative;
 }
 
@@ -187,7 +187,7 @@
 /*input.ui-pg-input { width: auto;  margin: 0px;  line-height: normal}*/
 /*select.ui-pg-selbox {width: auto; padding: 0px; margin: 0px; line-height: normal}*/
 
-/* set the width of the middle select box in the search dialog */ 
+/* set the width of the middle select box in the search dialog */
 select.selectopts {width: auto;}
 
 /* set the first column (field selection) width */
@@ -212,17 +212,17 @@ td.columns > select {width: auto;}
 
 
 .ui-jqgrid .loading {
-    position: absolute; 
+    position: absolute;
     top: 45%;
     left: 45%;
     width: auto;
     height: auto;
     z-index:101;
-    padding: 6px; 
+    padding: 6px;
     margin: 5px;
     text-align: center;
     font-weight: bold;
     display: none;
-    border-width: 2px !important; 
+    border-width: 2px !important;
     font-size:11px;
 }

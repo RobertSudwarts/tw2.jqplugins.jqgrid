@@ -394,6 +394,8 @@ class SQLAjqGridWidget(jqGridWidget):
             }
             kw.update(req.params)
 
+            print "kw", kw
+
             # Cast things to integers
             kw['page'], kw['rows'] = map(int, [kw['page'], kw['rows']])
 
